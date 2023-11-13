@@ -3,14 +3,13 @@ import { getAuth } from '@firebase/auth'
 import { getDatabase } from '@firebase/database'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyA2J5SSgyiENlk6d8g5co3ra6s7JR9VsxI',
-  authDomain: 'fruits-app.firebaseapp.com',
-  projectId: 'fruits-app',
-  storageBucket: 'fruits-app.appspot.com',
-  messagingSenderId: '919903841959',
-  appId: '1:919903841959:web:73f534d62dec9089b6b582',
-  databaseURL:
-    'https://fruits-app-default-rtdb.asia-southeast1.firebasedatabase.app',
+  apiKey: "AIzaSyCQB_tuWOjgZ7AXTOl-AZBNUpg2CW5UrWQ",
+  authDomain: "prezzies4me.firebaseapp.com",
+  databaseURL: "https://prezzies4me-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "prezzies4me",
+  storageBucket: "prezzies4me.appspot.com",
+  messagingSenderId: "937385757187",
+  appId: "1:937385757187:web:8c876fa1c649c6d8f6dc36"
 }
 const firebaseApp = initializeApp(firebaseConfig)
 
