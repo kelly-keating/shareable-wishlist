@@ -1,0 +1,24 @@
+# Node modules
+node_modules
+
+# Logs
+*.log
+
+# SQLite DBs
+*.sqlite3
+
+# Jest coverage report
+coverage/*
+
+# Dotenv env settings
+.env
+
+# System Files
+.DS_Store
+
+# large data
+*scryfall-cards.json
+scryfall-sets.json
+
+# Generated Seeds for Deployment
+cards
