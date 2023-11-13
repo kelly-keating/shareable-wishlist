@@ -3,6 +3,8 @@ import { Link, Outlet } from 'react-router-dom'
 import { signOut } from '../firebase/auth'
 import { useAuth } from '../firebase/AuthContext'
 
+import TestUpload from './TestUpload'
+
 function Dash() {
   const user = useAuth()
 
@@ -29,6 +31,7 @@ function Dash() {
         {user && <button onClick={removeUser}>Log out</button>}
       </header>
 
+      <TestUpload />
       <Outlet />
     </>
   )
