@@ -1,19 +1,40 @@
 {
   "lists": {
     "GLZ8brWduHeD3EpDMVmF3x3eZCD2": {
+      "uid": "GLZ8brWduHeD3EpDMVmF3x3eZCD2",
       "items": {
         "uuid1": {
           "details": "by so and so (this cover only pls)",
+          "id": "uuid1",
           "name": "cool book",
-          "tier": "mythic"
+          "tier": "epic"
         },
         "uuid2": {
+          "id": "uuid2",
           "links": [
             { "name": "TradeMe", "url": "http://soidviowisdbivuwsdxsdhb" },
             { "name": "TradeMe", "url": "http://wq8rfhwsjkrhi3uoieajcnn" }
           ],
           "name": "old ps1 game",
           "tier": "common"
+        },
+        "uuid3": {
+          "details": "by so and so (this cover only pls)",
+          "id": "uuid3",
+          "name": "cool book",
+          "tier": "uncommon"
+        },
+        "uuid4": {
+          "details": "by so and so (this cover only pls)",
+          "id": "uuid4",
+          "name": "cool book",
+          "tier": "legendary"
+        },
+        "uuid5": {
+          "details": "by so and so (this cover only pls)",
+          "id": "uuid5",
+          "name": "cool book",
+          "tier": "rare"
         }
       }
     },

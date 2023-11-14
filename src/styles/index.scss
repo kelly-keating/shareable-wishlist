@@ -6,3 +6,24 @@ body {
   padding: 20px;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.items_grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.common {
+ background-color: grey;
+}
+.uncommon {
+  background-color: green;
+}
+.rare {
+  background-color: rgb(32, 88, 178);
+}
+.epic {
+  background-color: purple;
+}
+.legendary {
+  background-color: orangered;
+}
