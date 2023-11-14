@@ -54,7 +54,6 @@ export async function createNewFruit(
 
 export async function deleteFruit(id: string): Promise<void> {
   const currentFruits = (await getDataOnce('fruits')) as Fruit[]
-
   const newFruits = currentFruits.filter((fruit: Fruit) => fruit.id !== id)
 
   return setData('fruits', newFruits)
@@ -65,7 +64,6 @@ export async function updateFruit(
   newRating: number,
 ): Promise<Fruit> {
   const currentFruits = (await getDataOnce('fruits')) as Fruit[]
-
   const newFruits = currentFruits.map((fruit: Fruit) => {
     if (fruit.id === id) fruit.rating = newRating
     return fruit

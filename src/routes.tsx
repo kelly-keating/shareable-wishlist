@@ -7,23 +7,22 @@ import {
 import { useAuth } from './firebase/AuthContext'
 
 import Dash from './components/Dash'
-import Fruits from './components/Fruits'
-import NewFruit from './components/NewFruit'
-import OneFruit from './components/OneFruit'
+import Landing from './components/Landing'
+import Wishlist from './components/Wishlist'
+import YourList from './components/YourList'
 import Register from './components/Register'
 import LogIn from './components/LogIn'
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Dash />}>
-      <Route index element={<Fruits />} />
-      <Route path="add" element={<AuthRoute element={<NewFruit />} />} />
-      <Route path=":id" element={<AuthRoute element={<OneFruit />} />} />
+      <Route index element={<AuthRoute element={<YourList />} altElement={<Landing />} />} />
+      <Route path="wishlist/:id" element={<Wishlist />} />
       <Route
         path="register"
-        element={<AuthRoute element={<Register />} noUser />}
+        element={<AuthRoute noUser element={<Register />} />}
       />
-      <Route path="log-in" element={<AuthRoute element={<LogIn />} noUser />} />
+      <Route path="log-in" element={<AuthRoute noUser element={<LogIn />} />} />
     </Route>,
   ),
 )

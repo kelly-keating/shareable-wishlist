@@ -1,0 +1,29 @@
+{
+  "lists": {
+    "GLZ8brWduHeD3EpDMVmF3x3eZCD2": {
+      "items": {
+        "uuid1": {
+          "details": "by so and so (this cover only pls)",
+          "name": "cool book",
+          "tier": "mythic"
+        },
+        "uuid2": {
+          "links": [
+            { "name": "TradeMe", "url": "http://soidviowisdbivuwsdxsdhb" },
+            { "name": "TradeMe", "url": "http://wq8rfhwsjkrhi3uoieajcnn" }
+          ],
+          "name": "old ps1 game",
+          "tier": "common"
+        }
+      }
+    },
+    "otherUserID": {}
+  },
+  "users": {
+    "GLZ8brWduHeD3EpDMVmF3x3eZCD2": {
+      "displayName": "Kelly",
+      "img": "some url to img in storage/users/GLZ8brWduHeD3EpDMVmF3x3eZCD2"
+    },
+    "otherUserID": {}
+  }
+}

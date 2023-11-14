@@ -3,8 +3,6 @@ import { Link, Outlet } from 'react-router-dom'
 import { signOut } from '../firebase/auth'
 import { useAuth } from '../firebase/AuthContext'
 
-import TestUpload from './TestUpload'
-
 function Dash() {
   const user = useAuth()
 
@@ -15,9 +13,9 @@ function Dash() {
   return (
     <>
       <header>
-        <h1>Fruits!</h1>
+        <h1>Prezzies 4 meeee!</h1>
         {user && <p>Welcome {user.displayName}</p>}
-        <nav>
+        {/* <nav>
           <Link to="/">Home</Link>
           {' | '}
           <Link to="/add">Add a fruit</Link>
@@ -27,11 +25,10 @@ function Dash() {
               <Link to="/log-in">Log in</Link>
             </>
           )}
-        </nav>
+        </nav> */}
         {user && <button onClick={removeUser}>Log out</button>}
       </header>
 
-      <TestUpload />
       <Outlet />
     </>
   )
